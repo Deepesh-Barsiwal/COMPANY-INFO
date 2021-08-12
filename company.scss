@@ -1,0 +1,70 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@mixin white {
+color:white;
+}
+@mixin black {
+    color: black;
+}
+@mixin bg {
+background-color: black;
+}
+/*NAVBAR*/
+.navbar{
+    @include bg;
+    .navbar-brand{
+        margin: 0 0 0 2rem;
+        padding: 1rem;
+        font-weight: 700;
+    @include white();
+    }/*navbar-brand*/
+
+.nav{
+    
+.nav-item{
+    padding: 0.7rem 1rem;
+    &:hover{
+        background-color: rgb(247, 247, 247);  
+    
+    }
+    &:hover .nav-link{
+        @include black();
+    }
+}/*nav-item*/
+.nav-link{
+    @include white();
+    i{
+margin: 0 0.5rem 0 0 ;
+font-size: 1.5rem;
+    
+    }
+}/*.nav-link*/
+}/*nav*/
+
+}/*navbar*/
+
+/*sidebar*/
+ .sidebar-btn{
+     margin: 0 1rem 0 0;
+     padding: 0 0.5rem;
+     background-color: transparent;
+     border: none;
+     color:white;
+     display: none;
+     i{
+         font-size: 2rem;
+     }
+ }
+@media screen and (max-width:900px) {
+    .sidebar-btn{
+        display: block;
+    }
+   .navbar{
+    .nav{
+        display: none;
+    }
+   }
+}
