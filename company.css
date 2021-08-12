@@ -72,11 +72,14 @@
 .container-fluid {
   /**section-1**/
   /*.section-1*/
+  /*section-2 heading*/
+  /*.section-2-heading*/
+  /*section-2*/
+  /*section-2*/
 }
 
 .container-fluid .section-1 {
-  width: 100%;
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("img-1.jpg");
   background-size: cover;
 }
@@ -88,11 +91,80 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 0 0 1rem;
+}
+
+.container-fluid .section-1 .inner-section-1 .inner-section-1-text {
+  margin: 0 0 0 3rem;
 }
 
 .container-fluid .section-1 .inner-section-1 .inner-section-1-text h1 {
   color: white;
+  font-size: 3.5rem;
+}
+
+.container-fluid .section-1 .inner-section-1 .inner-section-1-text p {
+  color: white;
+  margin: 2rem 0;
+}
+
+.container-fluid .section-1 .inner-section-1 .inner-section-1-text button {
+  padding: 1rem;
+  border: none;
+  font-weight: 900;
+}
+
+.container-fluid .section-1 .inner-section-1 .inner-section-1-text button:hover {
+  background-color: rgba(255, 255, 255, 0.582);
+  color: white;
+}
+
+.container-fluid .section-2-heading .section-2-heading-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6rem;
+}
+
+.container-fluid .section-2-heading .section-2-heading-text p {
+  margin: 2rem 0 0 0;
+}
+
+.container-fluid .section-2 .card-group .card {
+  border: none;
+  padding: 0 0 2.5rem 0;
+}
+
+.container-fluid .section-2 .card-group .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-fluid .section-2 .card-group .card .card-body i {
+  font-size: 7rem;
+}
+
+.container-fluid .section-2 .card-group .card .card-body .card-title {
+  margin: 2.5rem 0;
+  font-size: 1.5rem;
+}
+
+.container-fluid .section-2 .card-group .card .card-body .card-text {
+  text-align: center;
 }
 
 /*container**/
