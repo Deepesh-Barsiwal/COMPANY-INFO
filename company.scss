@@ -294,4 +294,108 @@ padding: 4rem;
     }
 }
 }/*section-8*/
+/*section-9*/
+.section-9-heading {
+    padding: 4rem;
+    background-color: grey;
+    .section-9-heading-text{
+        text-align: center;
+        p{
+            margin: 3rem 0;
+        }
+    }
+}
+.section-9{
+    background-color: grey;
+   
+.card{
+    
+    .card-header{
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 3rem;
+    }
+  .card-body{
+      text-align: center;
+    h4{
+        font-weight: 300;
+        margin: 1rem 0;
+        span{
+font-weight: 500;
+margin: 0 0.5rem 0 0;
+        }
+    }
+    h1{
+        margin: 2.5rem 0;
+    }
+}
+.card-footer{
+    text-align: center;
+    background-color: rgba(53, 87, 70, 0.39);
+    .btn{
+        background-color: black;
+        color: white;
+        padding: 1rem 3rem;
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.685);
+        
+        }
+    }
+}
+  }
+
+}/*section-9*/
+/*section-10*/
+
+.section-10{
+    background-color: rgb(133, 123, 123);
+    .first-col{
+        text-align: center;
+        padding: 4rem;
+        h6{
+            font-size: 2rem;
+        }
+        p{
+            margin: 2rem 0;
+        }
+    }
+    .second-col{
+        display: flex;
+        flex-direction: column;
+        
+        span{
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            i{
+                margin: 0 1rem;
+            }
+        }
+    }
+}
+.section-11{
+    
+    height: 90vh;
+.col{
+    background: url('screenshot.png');
+}
+}/*section-11*/
+.footer{
+  .col{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+    i{
+        color: white;
+        font-size: 2rem;
+        margin: 0 0.5rem;
+        &:hover{
+            text-shadow: 0 0 10px 3px white;
+            color: rgb(163, 152, 152);
+        }
+    }
+  }
+}
 }/*container**/

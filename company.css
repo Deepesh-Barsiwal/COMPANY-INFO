@@ -92,6 +92,10 @@
   /*section-7*/
   /*SECTION-8*/
   /*section-8*/
+  /*section-9*/
+  /*section-9*/
+  /*section-10*/
+  /*section-11*/
 }
 
 .container-fluid .section-1 {
@@ -328,6 +332,129 @@
 
 .container-fluid .section-8 .right-col .progress .progress-bar {
   background-color: #363672;
+}
+
+.container-fluid .section-9-heading {
+  padding: 4rem;
+  background-color: grey;
+}
+
+.container-fluid .section-9-heading .section-9-heading-text {
+  text-align: center;
+}
+
+.container-fluid .section-9-heading .section-9-heading-text p {
+  margin: 3rem 0;
+}
+
+.container-fluid .section-9 {
+  background-color: grey;
+}
+
+.container-fluid .section-9 .card .card-header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+}
+
+.container-fluid .section-9 .card .card-body {
+  text-align: center;
+}
+
+.container-fluid .section-9 .card .card-body h4 {
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.container-fluid .section-9 .card .card-body h4 span {
+  font-weight: 500;
+  margin: 0 0.5rem 0 0;
+}
+
+.container-fluid .section-9 .card .card-body h1 {
+  margin: 2.5rem 0;
+}
+
+.container-fluid .section-9 .card .card-footer {
+  text-align: center;
+  background-color: rgba(53, 87, 70, 0.39);
+}
+
+.container-fluid .section-9 .card .card-footer .btn {
+  background-color: black;
+  color: white;
+  padding: 1rem 3rem;
+}
+
+.container-fluid .section-9 .card .card-footer .btn:hover {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+
+.container-fluid .section-10 {
+  background-color: #857b7b;
+}
+
+.container-fluid .section-10 .first-col {
+  text-align: center;
+  padding: 4rem;
+}
+
+.container-fluid .section-10 .first-col h6 {
+  font-size: 2rem;
+}
+
+.container-fluid .section-10 .first-col p {
+  margin: 2rem 0;
+}
+
+.container-fluid .section-10 .second-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-fluid .section-10 .second-col span {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.container-fluid .section-10 .second-col span i {
+  margin: 0 1rem;
+}
+
+.container-fluid .section-11 {
+  height: 90vh;
+}
+
+.container-fluid .section-11 .col {
+  background: url("screenshot.png");
+}
+
+.container-fluid .footer .col {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+}
+
+.container-fluid .footer .col i {
+  color: white;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+
+.container-fluid .footer .col i:hover {
+  text-shadow: 0 0 10px 3px white;
+  color: #a39898;
 }
 
 /*container**/
