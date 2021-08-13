@@ -45,6 +45,11 @@
   font-size: 1.5rem;
 }
 
+.navbar .offcanvas {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 /*navbar*/
 /*sidebar*/
 .sidebar-btn {
@@ -76,6 +81,8 @@
   /*.section-2-heading*/
   /*section-2*/
   /*section-2*/
+  /*section-3*/
+  /*.section-3*/
 }
 
 .container-fluid .section-1 {
@@ -118,17 +125,14 @@
   color: white;
 }
 
+@media screen and (max-width: 400px) {
+  .container-fluid .section-1 .inner-section-1 .inner-section-1-text h1 {
+    font-size: 2rem;
+  }
+}
+
 .container-fluid .section-2-heading .section-2-heading-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
   padding: 6rem;
 }
 
@@ -165,6 +169,60 @@
 
 .container-fluid .section-2 .card-group .card .card-body .card-text {
   text-align: center;
+}
+
+.container-fluid .section-3 {
+  background-color: #dad0d0;
+}
+
+.container-fluid .section-3 .section-3-left {
+  padding: 3rem;
+}
+
+.container-fluid .section-3 .section-3-left h3 {
+  text-align: center;
+  font-weight: 300;
+  margin: 3rem 0;
+}
+
+.container-fluid .section-3 .section-3-left button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+.container-fluid .section-3 .section-3-left button i {
+  margin: 0 0.5rem;
+}
+
+.container-fluid .section-3 .section-3-left button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.container-fluid .section-3 .section-3-right {
+  padding: 4rem;
+}
+
+.container-fluid .section-3 .section-3-right img {
+  width: 300px;
+  height: 400px;
+}
+
+@media screen and (max-width: 400px) {
+  .container-fluid .section-3 .section-3-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .section-3 .section-3-left {
+    text-align: center;
+  }
 }
 
 /*container**/
