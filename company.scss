@@ -126,6 +126,7 @@ font-size: 1.5rem;
     }
 }
 }/*.section-2-heading*/
+
 /*section-2*/
 .section-2{
 .card-group{
@@ -198,8 +199,38 @@ font-size: 1.5rem;
         }
     }
 }
+@media screen and (max-width:900px) {
+    .section-3{
+        .section-3-right{
+            display: flex;
+            justify-content: center;
+        }
+        .section-3-left{
+            text-align: center;
+        }
+    }
+}
+/*section-4*/
+.section-4{
+    padding: 0 0 7rem 0;
 
-
+.card{
+box-shadow: 0 0 10px 0.5px grey;
+    h6{
+        text-align: center;
+        margin: 2rem 0;
+    }
+    button{
+        background-color: beige;
+        &:hover{
+            background-color: rgba(214, 214, 200, 0.692);
+        }
+    }
+    p{
+        text-align: center;
+    }
+}
+}/*section-4*/
 
 
 }/*container**/

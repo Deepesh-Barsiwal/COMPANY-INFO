@@ -83,6 +83,8 @@
   /*section-2*/
   /*section-3*/
   /*.section-3*/
+  /*section-4*/
+  /*section-4*/
 }
 
 .container-fluid .section-1 {
@@ -223,6 +225,46 @@
   .container-fluid .section-3 .section-3-left {
     text-align: center;
   }
+}
+
+@media screen and (max-width: 900px) {
+  .container-fluid .section-3 .section-3-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-fluid .section-3 .section-3-left {
+    text-align: center;
+  }
+}
+
+.container-fluid .section-4 {
+  padding: 0 0 7rem 0;
+}
+
+.container-fluid .section-4 .card {
+  -webkit-box-shadow: 0 0 10px 0.5px grey;
+          box-shadow: 0 0 10px 0.5px grey;
+}
+
+.container-fluid .section-4 .card h6 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.container-fluid .section-4 .card button {
+  background-color: beige;
+}
+
+.container-fluid .section-4 .card button:hover {
+  background-color: rgba(214, 214, 200, 0.692);
+}
+
+.container-fluid .section-4 .card p {
+  text-align: center;
 }
 
 /*container**/
