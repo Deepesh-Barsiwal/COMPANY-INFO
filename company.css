@@ -85,6 +85,11 @@
   /*.section-3*/
   /*section-4*/
   /*section-4*/
+  /*section-5*/
+  /*Section-6*/
+  /*section-6*/
+  /*section-7*/
+  /*section-7*/
 }
 
 .container-fluid .section-1 {
@@ -265,6 +270,45 @@
 
 .container-fluid .section-4 .card p {
   text-align: center;
+}
+
+.container-fluid .section-5 {
+  background-color: #5e5a5a;
+  padding: 4rem 2rem;
+}
+
+.container-fluid .section-5 .inner-section-5 {
+  text-align: center;
+}
+
+.container-fluid .section-5 .inner-section-5 span {
+  font-size: 4rem;
+  color: white;
+}
+
+.container-fluid .section-5 .inner-section-5 p {
+  color: white;
+}
+
+.container-fluid .section-6 .inner-section-6 {
+  padding: 4rem;
+  text-align: center;
+}
+
+.container-fluid .section-6 .inner-section-6 h4 {
+  font-size: 3rem;
+}
+
+.container-fluid .section-6 .inner-section-6 p {
+  margin: 2rem 0;
+}
+
+.container-fluid .section-7 .inner-section-7 img {
+  opacity: 0.4;
+}
+
+.container-fluid .section-7 .inner-section-7 img:hover {
+  opacity: 1;
 }
 
 /*container**/

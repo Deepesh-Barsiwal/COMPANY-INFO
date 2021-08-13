@@ -231,6 +231,47 @@ box-shadow: 0 0 10px 0.5px grey;
     }
 }
 }/*section-4*/
-
+/*section-5*/
+.section-5{
+    background-color: rgb(94, 90, 90);
+    padding: 4rem 2rem;
+    .inner-section-5{
+      
+        text-align: center;
+        span{
+            font-size: 4rem;
+            color: white;
+            
+        }
+        p{
+            color: white;
+            
+        }
+    }
+}
+/*Section-6*/
+.section-6{
+.inner-section-6{
+    padding: 4rem;
+    text-align: center;
+    h4{
+        font-size: 3rem;
+    }
+    p{
+        margin: 2rem 0;
+    }
+}
+}/*section-6*/
+/*section-7*/
+.section-7{
+    .inner-section-7{
+        img{
+      opacity: 0.4;
+      &:hover{
+          opacity: 1;
+      }
+        }
+    }
+}/*section-7*/
 
 }/*container**/
