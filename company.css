@@ -90,6 +90,8 @@
   /*section-6*/
   /*section-7*/
   /*section-7*/
+  /*SECTION-8*/
+  /*section-8*/
 }
 
 .container-fluid .section-1 {
@@ -309,6 +311,23 @@
 
 .container-fluid .section-7 .inner-section-7 img:hover {
   opacity: 1;
+}
+
+.container-fluid .section-8 {
+  padding: 4rem;
+}
+
+.container-fluid .section-8 .left-col p {
+  margin: 2rem 0;
+}
+
+.container-fluid .section-8 .right-col .progress {
+  height: 5vh;
+  margin: 1rem 0;
+}
+
+.container-fluid .section-8 .right-col .progress .progress-bar {
+  background-color: #363672;
 }
 
 /*container**/

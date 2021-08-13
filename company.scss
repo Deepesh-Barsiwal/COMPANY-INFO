@@ -273,5 +273,25 @@ box-shadow: 0 0 10px 0.5px grey;
         }
     }
 }/*section-7*/
+/*SECTION-8*/
 
+.section-8{
+padding: 4rem;
+.left-col{
+    p{
+        margin: 2rem 0;
+    }
+}
+.right-col{
+    .progress{
+        height: 5vh;
+        margin: 1rem 0;
+        .progress-bar{
+           
+            background-color: rgb(54, 54, 114);
+           
+        }
+    }
+}
+}/*section-8*/
 }/*container**/
